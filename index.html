@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--Description of Sanguro's Website-->
+        <meta name="description" content="This My Webpage">
+        <meta name="author" content="Sanguro">
+        <title>Implementing HTML Images, lists, forms, audio and video.</title>
+    </head>
+    <body>
+        <h1>Advanced HTML Elements & Forms</h1>
+        <h3>Ordered List</h3>
+        <h5>This is an Ordered List of My PLP Instructors</h5>
+        <!--Ordered Lists in Roman Numerics-->
+        <ol type="i" start="i">
+            <li>Mr. Eddy</li>
+            <li>Mr. Gerald</li>
+            <li>Mr. Evans</li>
+            <li>Mr. Chakin</li>
+            <li>Miss. Nelly</li>
+        </ol>
+        <h1>HTML Images</h1>
+        <image src="https://images.pexels.com/photos/27623464/pexels-photo-27623464/free-photo-of-tranquil-outdoor-space-centered-around-a-pristine-blue-pool.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Outdoor Hotel" width="450" height="550">
+        <br>
+        <h3>HTML Tables</h3>
+        <table border="5">
+            <!--Creating ang Inputing a HTML Table-->
+            <caption>Instructors Contacts</caption>
+            <thead>
+                <tr>
+                    <th colspan="2">Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>E-mail</th>
+                </tr>            
+            </thead>
+            <tbody>
+                <tr>
+                <td>Eddy</td>
+                <td>Lugai</td>
+                <td>12305-00100, Nairobi</td>
+                <td>+254 722669480</td>
+                <td>eddy@powerlearnprojectafrica.org</td>
+                </tr>
+                <tr>
+                    <td>Gerald</td>
+                    <td>Macherechedze</td>
+                    <td>20368, Cape Town</td>
+                    <td>+27 84 4134528</td>
+                    <td>gerald@powerlearnprojectafrica.org</td>
+                </tr>
+                <tr>
+                    <td>Evans</td>
+                    <td>Mutuku</td>
+                    <td>3015-00100, Nairobi</td>
+                    <td>+254 791486125</td>
+                    <td>evans@powerlearnprojectafrica.org</td>
+                </tr>
+                <tr>
+                    <td>Chakin</td>
+                    <td>Kim</td>
+                    <td>6915-00100, Nairobi</td>
+                    <td>+254 732408291</td>
+                    <td>charles@powerlearnprojectafrica.org</td>
+                </tr>
+                <tr>
+                    <td>Nelly</td>
+                    <td>Alili</td>
+                    <td>26515-00100, Nairobi</td>
+                    <td>+254 729308006</td>
+                    <td>charles@powerlearnprojectafrica.org</td>
+            </tbody>
+        </table>
+        <br><br>
+        <!--Required Registration Form-->
+        <h1>Registration Form</h1>
+        <form action="" method="">
+            <label for="name">Name</label>
+            <input type="text"  id="student_name" name="student_name" required>
+            <br><br>
+            <label for="E-mail">E-mail</label>
+            <input type="text" id="e-mail" name="e-mail" value="e-mail" required>
+            <br><br>
+            <label for="gender">Gender</label>
+            <input type="radio" id="gender" name="gender" value="male"> Male
+            <input type="radio" id="gender" name="gender" value="female"> Female
+            <br><br>
+            <label for="Password">Password</label>
+            <input type="text" id="password" name="password" value="password" required>
+            <br><br>
+            <label for="country">Country</label>
+            <select name="country" id="country">
+                <option>--Select Country--</option>
+                <option value="Kenya">Kenya</option>
+                <option value="South Africa">South Africa</option>
+                <option value="Nigeria">Nigeria</option>
+                <option value="Uganda">Uganda</option>
+                <option value="Eygpt">Eygpt</option>
+            </select>
+            <br><br>
+            <button>Register</button>
+            <input type="button" value="Cancel">
+        </form>
+    </body>
+</html>
